@@ -1,0 +1,11 @@
+.container-space {
+	max-width: 870px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.navbar-container-space {
+	max-width: 1366px;
+	width: 100%;
+    margin: 0 auto;
+}

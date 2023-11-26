@@ -1,0 +1,11 @@
+.outlined {
+	@apply uppercase rounded-full font-medium text-xs p-2.5 border text-gray-high-medium border-gray-medium-light;
+}
+
+.primary {
+	@apply bg-primary rounded-full text-white py-3 px-6 text-sm uppercase font-medium;
+}
+
+.text {
+	@apply rounded-full text-primary py-3 px-6 text-sm uppercase font-medium;
+}
