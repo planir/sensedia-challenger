@@ -1,36 +1,38 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# Sensedia Users
 
-First, run the development server:
+¡Bienvenido al proyecto Sensedia Users! Este proyecto utiliza las siguientes versiones:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1.  NodeJS (v.18.8.0)
+2.  npm (v8.18.0)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Dependencias
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Este proyecto depende del proyecto de rutas proporcionado por Sensedia, que puedes encontrar [aquí](https://bitbucket.org/sensedia/sensedia-candidate-challenge/src/main/). Es necesario para el correcto funcionamiento de nuestro proyecto.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Instalación
 
-## Learn More
+Sigue estos pasos para configurar tu entorno de desarrollo:
 
-To learn more about Next.js, take a look at the following resources:
+1.  Copia el archivo `.env.sample` a `.env`, el cual tiene únicamente dos valores:
+    
+    -   `NEXT_PUBLIC_HOST_API_URL`: hace referencia al host por defecto de Next.
+    -   `NEXT_PUBLIC_API_URL`: la URL del API proporcionado por Sensedia.
+2.  Instala los paquetes necesarios con el comando:
+        
+    `npm install` 
+    
+3.  Asegúrate de que el proyecto `sensedia-candidate-challenge` esté en ejecución.
+    
+4.  Inicia el proyecto con:
+        
+    `npm run dev` 
+    
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Pruebas
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Puedes realizar pruebas para asegurar la estabilidad de las páginas ejecutando el siguiente comando:
 
-## Deploy on Vercel
+`npm run test` 
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+¡Listo! Ahora deberías estar listo para empezar a trabajar en el proyecto. Si encuentras algún problema o tienes preguntas, ¡no dudes en comentarme!
